@@ -1,8 +1,8 @@
 
 #wrapper {
 	border-radius: 50%;
-	height: 200px;
-	width: 200px;
+	height: 220px;
+	width: 220px;
 	overflow: hidden;
 	position: relative;
 }
@@ -14,8 +14,7 @@
     background-color: rgba(0,0,0,0.3);
  	background-image: url(../image/Me.png);
  	border-color: black;
- 	height: 100px;
- 	width: 100px;
+ 
  	top: 0;
  	left:0;
 
@@ -24,13 +23,10 @@
 #button2{
 	background-size: 50%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 55% 55%;
     background-color: red;
  	background-image: url(../image/Me.png);
  	border-color: black;
- 	height: 100px;
- 
- 	width: 100px;
  	top: 0;
  	right:0;
 }
@@ -42,9 +38,6 @@
     background-color: blue;
  	background-image: url(../image/Me.png);
  	border-color: black;
- 	height: 100px;
- 
- 	width: 100px;
  	bottom:  0;
  	right: 0;
 }
@@ -56,9 +49,6 @@
     background-color: green;
  	background-image: url(../image/Me.png);
  	border-color: black;
- 	height: 100px;
- 	
- 	width: 100px;
  	bottom:0;
  	left:0;
 
@@ -71,12 +61,10 @@
     background-position: center;
     background-color: rgb(10,10,10);
  	background-image: url(../image/Home.png);
- 	border-color: black;
- 	height: 100px;
- 	width: 100px; 
+ 	border-color: black; 
  	transition: 0.5s;
- 	top: 50px;
-    left: 50px;
+ 	top: 25%;
+    left: 25%;
 }
 
 #button5:hover{
@@ -87,6 +75,8 @@
 cursor: pointer;
 position: absolute;
 opacity: 1;
+height: 50%;
+width: 50%;
 
 }
 .button:hover{
