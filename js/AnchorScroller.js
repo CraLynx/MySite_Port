@@ -3,6 +3,7 @@ function slowScroll (id) {
     $('html, body').stop().animate ({
       scrollTop: $(id).offset ().top - offset
     }, 500);
+   
     return false;
   }
 

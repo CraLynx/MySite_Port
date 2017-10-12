@@ -10,9 +10,10 @@
     }	
     </style>
 <script type="text/javascript" src="js/AnchorScroller.js"></script>
+<script type="text/javascript" src="js/rotate.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 </head>
-<body>
-	
+<body>	
 	<header id="home" >
 			<div id="wrapper">
 				<a href="javascript://0" onclick="slowScroll ('#aboutme')">
@@ -36,20 +37,24 @@
 				
 					</div>
 				</a>
-				<a href="javascript://0" onclick="slowScroll ('#home')">
-					<div class="button" id="button5">
+				<div onclick="rotat ('#homerot')">
+					<a href="javascript://0" onclick="slowScroll ('#home')">
+						<div class="button" id="button5">
 						
-					</div>
-				</a>
+						</div>
+					</a>
+				</div>
 			</div>
 
 		</header>
+
+
 
 		<section id="aboutme"></section>
 		<section id="wins"></section>
 		<section id="education"></section>
 		<section id="contact"></section>
 		<footer></footer>
-	<script type="text/javascript" src="js/jquery1.4.1.js"></script>
+	
 	</body>
 </html>
