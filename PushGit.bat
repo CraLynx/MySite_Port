@@ -10,7 +10,7 @@ if "%cheking%" == "Y" or "y" or "yes" or "YES"(
 git add -A
 git commit -m "%COM%"
 git push
+pause
 ) else (
 goto renamecom
 )
-PAUSE
