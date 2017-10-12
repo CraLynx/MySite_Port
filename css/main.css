@@ -87,3 +87,29 @@ width: 50%;
 	
 }
 
+#home{
+	background-size: cover;
+	background-image: url(../image/dezert.jpg);
+	height: 662px;
+}
+
+#aboutme{
+	background-size: cover;
+	background-image: url(../image/background.jpg);
+	height: 662px;
+
+}
+
+#wins{
+	background-size: cover;
+	background-image: url(../image/background1.jpg);
+	height: 662px;
+}
+
+#education{
+	height: 662px;
+}
+
+#contact{
+	height: 662px;
+}
