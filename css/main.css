@@ -27,7 +27,7 @@
     background-position: 55% 55%;
     background-color: black;
  	background-image: url(../image/Cup.png);
- 	border: 1px solid white;
+ 	border: 1px solid black;
  	border-top-right-radius: 100%;
  	top: 0;
  	right:0;
@@ -53,7 +53,7 @@
  	background-image: url(../image/Phone.png);
  	bottom:0;
  	left:0;
- 	border: 1px solid white;
+ 	border: 1px solid black;
  	border-bottom-left-radius: 100%;
 
 }
