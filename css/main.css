@@ -145,8 +145,16 @@ width: 50%;
 }
 
 #contact{
-	height: 662px;
+	height: 600px;
 }
 
-
+.footer{
+	height: 62px;
+	width: 100px;
+    margin-bottom: 48px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative
+}
 
