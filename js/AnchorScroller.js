@@ -5,8 +5,8 @@ $(function(){
 		// $('#button5').css('transform','rotate('+$(this).data('rotate')+'deg)');
 		$('.button span').css('transform','rotate('+$(this).data('rotate')+'deg)');
 	 });
-}
-);
+	Rotator();
+});
 
 function slowScroll (id) {
     var offset = 0;
@@ -16,7 +16,3 @@ function slowScroll (id) {
    
     return false;
   }
-
-
-  
-

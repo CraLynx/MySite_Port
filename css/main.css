@@ -1,7 +1,7 @@
 #wrapper {
 	border-radius: 50%;
-	height: 220px;
-	width: 220px;
+	height: 180px;
+	width: 180px;
 	overflow: hidden;
 	position: fixed;
 	top:25px;
@@ -11,6 +11,20 @@
 }
 #wrapper[data-rotate='90']{
 	transform: rotate(90deg);
+}
+
+@media (max-width: 780px) {
+	#wrapper{
+	height: 150px;
+	width: 150px;
+	}
+}
+@media (max-width: 420px) {
+	#wrapper{
+	height: 150px;
+	width: 150px;
+	left:calc(50% - 75px);
+	}
 }
 
 #button1 {
