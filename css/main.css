@@ -7,52 +7,61 @@
 	top:25px;
 	left:25px;
 	transform: rotate(0deg);
-
+	transition: 1s;
+}
+#wrapper[data-rotate='90']{
+	transform: rotate(90deg);
 }
 
 #button1 {
-	background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: red;
- 	background-image: url(../image/Me.png);
+	background-color: red;
  	border: 1px solid black;
  	border-top-left-radius: 100%;
  	top: 0;
  	left:0;
 
 }
+#button1 span{
+	background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;    
+ 	background-image: url(../image/Me.png);
+
+}
 
 #button2{
-	background-size: 35%;
-    background-repeat: no-repeat;
-    background-position: 55% 55%;
-    background-color: black;
- 	background-image: url(../image/Cup.png);
+	background-color: black;
  	border: 1px solid black;
  	border-top-right-radius: 100%;
  	top: 0;
  	right:0;
 }
 
-#button3{
-	background-size: 40%;
+#button2 span{
+	background-size: 35%;
     background-repeat: no-repeat;
     background-position: 55% 55%;
+ 	background-image: url(../image/Cup.png);
+
+}
+
+#button3{
     background-color: white;
- 	background-image: url(../image/sahap.png);
  	border: 1px solid black;
  	border-bottom-right-radius: 100%;
  	bottom:  0;
  	right: 0;
 }
+#button3 span{
+	background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 55% 55%;
+ 	background-image: url(../image/sahap.png);
+
+}
 
 #button4{
-	background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
- 	background-image: url(../image/Phone.png);
+	background-color: black;
  	bottom:0;
  	left:0;
  	border: 1px solid black;
@@ -60,17 +69,30 @@
 
 }
 
+#button4 span{
+	background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+ 	background-image: url(../image/Phone.png);
+
+}
+
 #button5{
 	border-radius: 50%;
+	background-color: rgb(161, 149, 149);
+ 	border-color: black; 
+ 	overflow:hidden;
+ 	transition: 1s;
+ 	top: 25%;
+    left: 25%;
+}
+
+#button5 span{
 	background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(161, 149, 149);
  	background-image: url(../image/Home.png);
- 	border-color: black; 
- 	transition: 0.5s;
- 	top: 25%;
-    left: 25%;
+
 }
 
 #button5:hover{
@@ -84,6 +106,16 @@ height: 50%;
 width: 50%;
 
 }
+
+.button span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    transform: 0;
+    transition: 1s;
+}
+
 .button:hover{
 	transform: scale(1.1);
 	
@@ -115,4 +147,6 @@ width: 50%;
 #contact{
 	height: 662px;
 }
+
+
 

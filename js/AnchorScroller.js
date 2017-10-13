@@ -1,3 +1,13 @@
+$(function(){
+	$('.button').on('click',null,function(){
+		slowScroll($(this).parents('a').data('scroll'));
+		$('#wrapper').css('transform','rotate(-'+$(this).data('rotate')+'deg)');
+		// $('#button5').css('transform','rotate('+$(this).data('rotate')+'deg)');
+		$('.button span').css('transform','rotate('+$(this).data('rotate')+'deg)');
+	 });
+}
+);
+
 function slowScroll (id) {
     var offset = 0;
     $('html, body').stop().animate ({
