@@ -15,7 +15,7 @@ git status
 	) else (
 echo %checkanswer%
 ECHO Your comment is - %COM%
-		goto renamecome
+		goto :renamecome
 
 		)
 Pause
