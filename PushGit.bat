@@ -7,7 +7,7 @@ git status
 	Echo Are you sure? y/n
 	SET /p chekanswer=And your answer:
 
-	if "%checkanswer%" == "y" (
+	if not "%checkanswer%"=="y" (
 		git add -A
 		git commit -m "%COM%"
 		git push

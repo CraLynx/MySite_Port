@@ -27,7 +27,7 @@
 	}
 }
 
-#button1 {
+#bAboutme {
 	background-color: red;
  	border: 1px solid black;
  	border-top-left-radius: 100%;
@@ -35,7 +35,7 @@
  	left:0;
 
 }
-#button1 span{
+#bAboutme span{
 	background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;    
@@ -43,7 +43,7 @@
 
 }
 
-#button2{
+#bWins{
 	background-color: black;
  	border: 1px solid black;
  	border-top-right-radius: 100%;
@@ -51,7 +51,7 @@
  	right:0;
 }
 
-#button2 span{
+#bWins span{
 	background-size: 35%;
     background-repeat: no-repeat;
     background-position: 55% 55%;
@@ -59,14 +59,14 @@
 
 }
 
-#button3{
+#bEducation{
     background-color: white;
  	border: 1px solid black;
  	border-bottom-right-radius: 100%;
  	bottom:  0;
  	right: 0;
 }
-#button3 span{
+#bEducation span{
 	background-size: 40%;
     background-repeat: no-repeat;
     background-position: 55% 55%;
@@ -74,7 +74,7 @@
 
 }
 
-#button4{
+#bContact{
 	background-color: black;
  	bottom:0;
  	left:0;
@@ -83,7 +83,7 @@
 
 }
 
-#button4 span{
+#bContact span{
 	background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,7 +91,7 @@
 
 }
 
-#button5{
+#bHome{
 	border-radius: 50%;
 	background-color: rgb(161, 149, 149);
  	border-color: black; 
@@ -101,7 +101,7 @@
     left: 25%;
 }
 
-#button5 span{
+#bHome span{
 	background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
