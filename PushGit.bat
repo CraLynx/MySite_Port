@@ -7,7 +7,7 @@ git status
 	echo Are you sure? y/n
 	set /p res=And your answer:
 
-	if "%res%"=="y" then (
+	if "%res%"=="y" (
 		git add -A
 		git commit -m "%COM%"
 		git push
