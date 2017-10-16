@@ -172,3 +172,13 @@ width: 50%;
     position: relative
 }
 
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
