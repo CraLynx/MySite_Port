@@ -13,6 +13,10 @@
 	transform: rotate(90deg);
 }
 
+#wrapper{
+z-index: 1;
+}
+
 @media (max-width: 780px) {
 	#wrapper{
 	height: 150px;
@@ -137,7 +141,7 @@ width: 50%;
 
 #home{
 	background-size: cover;
-	background-image: url(../image/dezert.jpg);
+	background-image: url("http://elitefon.ru/pic/201302/1920x1200/elitefon.ru-35634.jpg");
 	height: 662px;
 }
 
@@ -181,4 +185,19 @@ body,
 .view {
     background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
     background-size: cover;
+}
+
+.col-6{
+	background: #eee;
+	height: 662px;
+}
+
+.container{
+
+	
+}
+#ImageInEducation{
+	 background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
+    background-size: cover;
+
 }
