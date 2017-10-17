@@ -9,6 +9,7 @@
 	transform: rotate(0deg);
 	transition: 1s;
 }
+
 #wrapper[data-rotate='90']{
 	transform: rotate(90deg);
 }
@@ -64,7 +65,7 @@ z-index: 1;
 }
 
 #bEducation{
-    background-color: white;
+    background:white;
  	border: 1px solid black;
  	border-bottom-right-radius: 100%;
  	bottom:  0;
@@ -113,6 +114,18 @@ z-index: 1;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 #button5:hover{
 	background-color: rgb(255,255,255);
 }
@@ -141,7 +154,7 @@ width: 50%;
 
 #home{
 	background-size: cover;
-	background-image: url("http://elitefon.ru/pic/201302/1920x1200/elitefon.ru-35634.jpg");
+	background-image: url(../image/MainMenu.jpg);
 	height: 662px;
 }
 
@@ -158,8 +171,19 @@ width: 50%;
 	height: 662px;
 }
 
+#ImageInWins{
+	background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center ;
+    background-size: cover;
+}
+
 #education{
 	height: 662px;
+}
+
+#ImageInEducation{
+	 background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 #contact{
@@ -183,7 +207,7 @@ body,
 }
 
 .view {
-    background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
+    background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center;
     background-size: cover;
 }
 
@@ -196,8 +220,5 @@ body,
 
 	
 }
-#ImageInEducation{
-	 background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
-    background-size: cover;
 
-}
+
