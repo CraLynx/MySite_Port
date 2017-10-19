@@ -8,7 +8,9 @@ $(function(){
 	
 	$(window).resize(function(){
 		WinResize();
+		// alert('124124');
 	});
+
 	WinResize();
 		
 });
@@ -22,11 +24,11 @@ function slowScroll (id) {   //Функция для прокрутки стра
     return false;
   }
  
- function WinResize() {
+function WinResize() {
 
- $('#home').height(screen.height);
- $('#aboutme').height(screen.height);
- $('#wins').height(screen.height);
- $('#education').height(screen.height);
- $('#contact').height(screen.height);
- }
+	 $('#home').height($(window).height());
+	 $('#aboutme').height($(window).height());
+	 $('#wins').height($(window).height());
+	 $('#education').height($(window).height());
+	 $('#contact').height($(window).height());
+}
