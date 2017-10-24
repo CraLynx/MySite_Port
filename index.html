@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js"></script>
 	<style>
 		body {
@@ -74,19 +75,18 @@
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-4"><h1>I'm</h1></div>
-				<div class="w-100"></div>
+					<div class="w-100"></div>
 					<div class="col-5">
 						<h1 class="fullname">Roman Goloveshkin</h1>
-						
 					</div>
 					<div class="w-100"></div>
-					<div class="col-4" id="example">
-					</div>
+					<div class="col-4" id="example"></div>
 				</div>
 				<div class="row justify-content-center">
 					<div class="w-100"></div>
 					<div class="col-5" id="share">
-						<a href="#" class="vkontakte"></a>
+						<a href="https://vk.com/id111988133	"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						
 						
 
 
@@ -114,20 +114,21 @@
                             	<font face="BadScript-Regular" style="font-style:italic; font-size:14pt">"Я может быть и не так опытен, но я человек, с которым вам захочется познакомиться и поработать"</font>
                             </p>
                             <p>--------------------------- <br>
-                            	-------------------------------- <br> ------------------------------ <br>
-                            <p>
+                            -------------------------------- <br>
+                            ------------------------------ <br>
+                            </p>
                             <p style="text-indent: 10px;">Я молодой веб-разработчик\дизайнер, <br>
 							программист, любитель кофе,
                             </p>
                             <div class="downloadbutton">
-                           	<a href="document/Головешкин Роман Игоревич.pdf">Resume</a>
-                          	<a href="document/Головешкин Роман Игоревич.pdf" download>Download</a>
+                           		<a href="document/Головешкин Роман Игоревич.pdf">Resume</a>
+                          		<a href="document/Головешкин Роман Игоревич.pdf" download>Download</a>
                           	</div>
                         </div>
                     </div>                        
                 </div>
             </div>
-        </div>
+        
         
 		<!--Секция "Достижений и проделанных работ"--> 
 	
@@ -147,7 +148,6 @@
 
     		 	</div>
    			</div>
-   		</div>
 		 
 		
 
@@ -157,6 +157,7 @@
 		   	<div class="full-bg-img flex-center"> </div>
     						<!--/Intro content-->
 		</div>
+	</div>
 		
 
 		
@@ -166,38 +167,38 @@
 		</footer> <!--Подвал-->
 		
 
-<script type="text/javascript">
-	var texts = new Array();
-	var numtext = 0;
+		<script type="text/javascript">
+			var texts = new Array();
+			var numtext = 0;
 
-	texts[0]="Web Developer";
-	texts[1]="Coder";
-	texts[2]="Web-designer";
-	texts[3]="Coffee Lover";
+			texts[0]="Web Developer";
+			texts[1]="Coder";
+			texts[2]="Web-designer";
+			texts[3]="Coffee Lover";
 
 
-	$(document).ready(function(){
-		$.fn.animate_Text = function(string) {
-	  // var string = this.text();
-			return this.each(function(){
-		  		var $this = $(this);
-		   		$this.html(string.replace(/./g, '<span class="new">$&</span>'));
-		   		$this.find('span.new').each(function(i, el){
-		    		setTimeout(function(){ $(el).addClass('div_opacity'); }, 40 * i);
-		   		});
-		  	});
-	 	};
-	$('#example').show();
-	 Cicle();
-	});
+			$(document).ready(function(){
+				$.fn.animate_Text = function(string) {
+			  // var string = this.text();
+					return this.each(function(){
+				  		var $this = $(this);
+				   		$this.html(string.replace(/./g, '<span class="new">$&</span>'));
+				   		$this.find('span.new').each(function(i, el){
+				    		setTimeout(function(){ $(el).addClass('div_opacity'); }, 40 * i);
+				   		});
+				  	});
+			 	};
+			$('#example').show();
+			 Cicle();
+			});
 
-	function Cicle(){
-		$('#example').animate_Text(texts[numtext]);
-		numtext++;
-	 if (numtext>=texts.length) numtext=0;
-	 setTimeout(Cicle, 1900);
-	}
-</script>	
+			function Cicle(){
+				$('#example').animate_Text(texts[numtext]);
+				numtext++;
+			 if (numtext>=texts.length) numtext=0;
+			 setTimeout(Cicle, 1900);
+			}
+		</script>	
 	</body>
 </html>
 
