@@ -161,7 +161,6 @@ width: 50%;
 
 #ImageInAboutMe{
 	background: url("https://petapixel.com/assets/uploads/2015/11/manwithbeard_2.jpg")no-repeat center center ;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
