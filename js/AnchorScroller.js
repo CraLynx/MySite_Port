@@ -12,8 +12,7 @@ $(function(){
 	});
 
 	WinResize();
-	ScrlSpy();
-		
+	ScrlSpy();	
 });
 
 function slowScroll (id) {   //Функция для прокрутки страницы "Якорь"
@@ -32,5 +31,7 @@ function WinResize() {
 	 $('#education').height($(window).height());
 	 $('#contact').height($(window).height());
 }
+
+
 
 

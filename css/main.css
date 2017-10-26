@@ -125,7 +125,6 @@ cursor: pointer;
 position: absolute;
 height: 50%;
 width: 50%;
-
 }
 
 .button span {
@@ -143,9 +142,11 @@ width: 50%;
 }
 
 #home{
-	background-size: cover;
-	background-image: url("http://www.braciaprzykawie.pl/wp-content/uploads/2016/11/bracia-przy-kawie-7-pytan-cel-zycia-wizja.jpg");
-	position: relative;
+	background-image: url(../image/Home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #ImageInHome{
@@ -160,9 +161,8 @@ width: 50%;
 
 #ImageInAboutMe{
 	background: url("https://petapixel.com/assets/uploads/2015/11/manwithbeard_2.jpg")no-repeat center center ;
+    background-repeat: no-repeat;
     background-size: cover;
-    /*position: fixed;*/
-
 }
 
 #wins{
@@ -179,7 +179,7 @@ width: 50%;
 }
 
 #ImageInEducation{
-	background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center fixed;
+	background: url("http://widefon.com/_ld/20/62654251.jpg")no-repeat center center;
 
 
 
@@ -225,7 +225,6 @@ body,
 .col-12 { 
 top:230px;
 font-size:4;
-/*background-color: green;	*/
 }
 
 
@@ -234,10 +233,7 @@ font-size:4;
 
 	
 }
-/*.vkontakte{*/
-	/*background-image: url(../image/vkontakte.png);*/
-	/*background-size: cover;*/
-/*}*/
+
 .fullname{
 	color:white;
 	top: 40%;
@@ -252,10 +248,22 @@ font-size:4;
   -ms-transition: opacity .1s ease-in-out;
   -o-transition: opacity .1s ease-in-out;
   transition: opacity .1s ease-in-out;
-  opacity: 1;font-size:4;
+  opacity: 1;
+  font-size:4;
    }
 
 .download{
 	
+}
+
+#share a,#share a i{
+	display:  inline-block;
+	font-size: 40pt;
+	margin: 5% 10% 0 0%;
+	line-height: 1;
+	
+}
+#share{
+	margin-left: 30%;
 }
 

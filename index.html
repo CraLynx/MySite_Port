@@ -4,10 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>CraLynx</title>
+	<!--Подключение css файлов-->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	
+	
 	<script src="https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js"></script>
 	<style>
 		body {
@@ -19,6 +22,7 @@
     		font-family: BadScript-Regular[cursive]; /* Гарнитура шрифта */
     		src: url(fonts/BadScript-Regular.ttf); 
    		}
+   		
 
    		/*h1 {*/
     		/*font-family: flamingo_vr, 'Comic Sans MS', cursive;*/
@@ -26,6 +30,8 @@
     </style>
 
 <!--Подключение библиотеки Jquire-->
+
+
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/esm/popper.min.js"></script>
 <!-- Подключение Boostrap -->
@@ -33,7 +39,9 @@
 <!--Подключение файла с "якорем" и вращением-->
 <script type="text/javascript" src="js/AnchorScroller.js"></script>
 <!--Пока что не нужная вещь--> 
-<script type="text/javascript" src="js/rotate.js"></script> 
+<script type="text/javascript" src="js/rotate.js"></script>
+
+
 
 </head>
 	<body data-spy="scroll" ">	
@@ -84,19 +92,20 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="w-100"></div>
-					<div class="col-5" id="share">
-						<a href="https://vk.com/id111988133	"><i class="fa fa-vk" aria-hidden="true"></i></a>
-						
-						
-
-
+					<div class="col-12" id="share">
+						<a href="https://vk.com/id111988133	" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						<a href="https://vk.com/id111988133	" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://github.com/CraLynx	" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/u/0/117775744209917570060" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
 		</header>
+
 		
 		<!--Секция "об о мне"-->
-		
+
 		<div class="container-fluid">
             <div class="row " id="aboutme">
                 <div class="col-6" id="ImageInAboutMe"></div>
@@ -121,8 +130,8 @@
 							программист, любитель кофе,
                             </p>
                             <div class="downloadbutton">
-                           		<a href="document/Головешкин Роман Игоревич.pdf">Resume</a>
-                          		<a href="document/Головешкин Роман Игоревич.pdf" download>Download</a>
+                           		<a style="color:red;" href="document/Головешкин Роман Игоревич.pdf" target="_blank">Resume</a>
+                          		<a href="document/Головешкин Роман Игоревич.pdf" target="_blank" download>Download</a>
                           	</div>
                         </div>
                     </div>                        
@@ -134,7 +143,9 @@
 	
   			<div class="row " id="wins">
    			 	<div class="col-6" id="ImageInWins"></div>
-    		 	<div class="col-6">Another Text1</div>
+    		 	<div class="col-6">
+    		 			
+    		 	</div>
    			</div>
 	
 
@@ -198,7 +209,7 @@
 			 if (numtext>=texts.length) numtext=0;
 			 setTimeout(Cicle, 1900);
 			}
-		</script>	
+		</script>
 	</body>
 </html>
 
