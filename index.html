@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	
+
 	
 	<script src="https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js"></script>
 	<style>
@@ -33,19 +33,20 @@
 
 
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/esm/popper.min.js"></script>
 <!-- Подключение Boostrap -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <!--Подключение файла с "якорем" и вращением-->
-<script type="text/javascript" src="js/AnchorScroller.js"></script>
-<!--Пока что не нужная вещь--> 
-<script type="text/javascript" src="js/rotate.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 
 
 
 </head>
 	<body data-spy="scroll" ">	
-		<header id="home" id="ImageInHome"  class="container-fluid"> <!-- Главная "секция"-->
+
+						<!-- Главная "секция"-->
+
+		<header id="home" id="ImageInHome"  class="container-fluid"> 
 			<div id="wrapper" data-rotate="0">
 				<a href="javascript://0" data-scroll="#aboutme">  <!--Кнопка об о мне-->
 					<div class="button" id="bAboutme" data-rotate="0">
@@ -54,26 +55,26 @@
 				</a>
 		
 				<a href="javascript://0" data-scroll="#wins">
-					<!--Кнопка достижений и награды-->
+							<!--Кнопка достижений и награды-->
 					<div class="button" id="bWins" data-rotate="90" > 
 						<span></span>
 					</div>
 				</a>
 				<a href="javascript://0" data-scroll="#education">
-					<!--Кнопка образования-->
+							<!--Кнопка образования-->
 					<div class="button" id="bEducation" data-rotate="180">  
 						<span></span>
 					</div>
 				</a>
 				<a href="javascript://0" data-scroll="#contact">
-					<!--Кнопка связь со мной-->
+							<!--Кнопка связь со мной-->
 					<div class="button" id="bContact" data-rotate="270"> 
 						<span></span>
 					</div>
 				</a>
 	
 				<a href="javascript://0" data-scroll="#home" >		
-					<!--Центральная кнопка "домой" начальная область страницы-->
+						<!--Центральная кнопка "домой" начальная область страницы-->
 					<div class="button" id="bHome" data-rotate="360">
 						<span></span>
 					</div>
@@ -82,21 +83,29 @@
 
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-4"><h1>I'm</h1></div>
+					<div class="col-2"><h1>I'm</h1></div>
 					<div class="w-100"></div>
-					<div class="col-5">
+					<div class="col-7">
 						<h1 class="fullname">Roman Goloveshkin</h1>
 					</div>
 					<div class="w-100"></div>
 					<div class="col-4" id="example"></div>
 				</div>
+
+				<!--Ссылки на соц.ресурсы-->
+				
 				<div class="row justify-content-center">
 					<div class="w-100"></div>
-					<div class="col-12" id="share">
-						<a href="https://vk.com/id111988133	" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+					<div class="col-9" id="share">
+						<!--Vkontakte-->
+						<a href="https://vk.com/id111988133	" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>  
+						<!--Facebook-->
 						<a href="https://vk.com/id111988133	" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<!--Github-->
 						<a href="https://github.com/CraLynx	" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<!--Google+-->
 						<a href="https://plus.google.com/u/0/117775744209917570060" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<!--Inst-->
 						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 					</div>
 				</div>
@@ -126,12 +135,12 @@
                             -------------------------------- <br>
                             ------------------------------ <br>
                             </p>
-                            <p style="text-indent: 10px;">Я молодой веб-разработчик\дизайнер, <br>
-							программист, любитель кофе,
-                            </p>
+                            <p style="text-indent: 10px;">TEXT text Text TeXt nsdg
+                            	sdfsdfsdf
+                            	sdfsdfsd</p>
                             <div class="downloadbutton">
-                           		<a style="color:red;" href="document/Головешкин Роман Игоревич.pdf" target="_blank">Resume</a>
-                          		<a href="document/Головешкин Роман Игоревич.pdf" target="_blank" download>Download</a>
+                           		<a class="Resume" style="text-decoration: none;" href="document/Головешкин Роман Игоревич.pdf" target="_blank">Resume</a>
+                          		<a class="Resume" style="text-decoration: none;" href="document/Головешкин Роман Игоревич.pdf" target="_blank" download>Download</a>
                           	</div>
                         </div>
                     </div>                        
@@ -162,16 +171,20 @@
 		 
 		
 
-		<!--Секция "Связи со мной"-->
-  		<div class="view" id="contact">
-    		<!--Intro content-->
-		   	<div class="full-bg-img flex-center"> </div>
-    						<!--/Intro content-->
+			<!--Секция "Связи со мной"-->
+  			<div class="row justify-content-center" id="contact">
+  				<div class="col-lg-2"><p><input type="text" name="your-name" value="" size="40"   placeholder="*Your Full Name"></p></div>
+  				<div class="w-100"></div>
+  				<div class="col-lg-2"><p><input type="text" name="e-mail" value="" size="40"   placeholder="*Your Full Name"></p></div>
+  				<div class="w-100"></div>
+  				<div class="col-lg-2"><p><input type="text" name="phonenumber" value="" size="40"   placeholder="*Your Full Name"></p></div>
+  				<div class="w-100"></div>
+  				<div class="col-lg-2"><p><input type="text" name="companyname" value="" size="40"   placeholder="*Your Full Name"></p></div>
+  				<div class="w-100"></div>
+  				<div class="col-lg-2"><p> <textarea name="your-message" cols="40" rows="10" placeholder="Message..."></textarea></p></div>
+    		</div>
 		</div>
-	</div>
-		
 
-		
 		<footer class="footer">
 		Hello
 		<!--Content-->
