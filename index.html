@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 	
-	<script src="https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js"></script>
+	
 	<style>
 		body {
 			padding: 0; 
@@ -33,10 +33,7 @@
 
 
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-<!-- Подключение Boostrap -->
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<!--Подключение файла с "якорем" и вращением-->
-<script type="text/javascript" src="js/main.js"></script>
+
 
 
 
@@ -82,7 +79,7 @@
 			</div>
 
 			<div class="container">
-				<div class="row justify-content-center">
+				<div class="r	ow justify-content-center">
 					<div class="col-md-2"><h1>I'm</h1></div>
 					<div class="w-100"></div>
 					<div class="col-md-7">
@@ -125,7 +122,7 @@
                         </div>
                     </div>
                 	<div class="row" style="margin-top:50px">
-                        <div class="col-md-2"></div>
+                        <!-- <div class="col-md-2"></div> -->
                         <div class="col-md-9" role="main">
                             <h3 id="overview">О себе</h3>
                             <p class="lead" style="text-indent: 10px;">
@@ -151,9 +148,45 @@
 		<!--Секция "Достижений и проделанных работ"--> 
 	
   			<div class="row " id="wins">
-   			 	<div class="col-6" id="ImageInWins"></div>
-    		 	<div class="col-6">
-    		 			
+   			 	<div class="col-md-6" id="ImageInWins"></div>    		 	
+    		 	<div class="col-md-6">
+		    		<ul class="nav nav-tabs" style="margin-top: 5%;">
+		        		<li class="nav-item">
+		        			<a href="#photo" class="nav-link active" role="tab" data-toggle="tab">photo</a>
+		        		</li>
+
+		        		<li class="nav-item">
+		        			<a href="#web" class="nav-link" role="tab" data-toggle="tab">web</a>
+		        		</li>
+
+		        		<li class="nav-item">
+		        			<a href="#about" class="nav-link" role="tab" data-toggle="tab">Contact Us</a>
+		        		</li>
+		        	</ul>
+
+		        	<div class="tab-content">
+		        		<div role="tabpanel" class="tab-pane active" id="photo">
+			        			<div class="row">
+			        				<div class="col-md-4">
+										<div class="photo1"></div>										
+									</div>
+									<div class="col-md-4">
+										<div class="photo1"></div>										
+									</div>
+									<div class="col-md-4">
+										<div class="photo1"></div>										
+									</div>
+								</div>	
+		        		</div>
+		        		<div role="tabpanel" class="tab-pane " id="web">
+							<div class="row">
+			        			<div class="col-md-4">
+									<div class="photo2"></div>										
+								</div>
+							</div>
+		        		</div>
+		        		<div role="tabpanel" class="tab-pane " id="about">3 23xxr23c5r</div>
+		        	</div>
     		 	</div>
    			</div>
 	
@@ -174,7 +207,8 @@
 			<!--Секция "Связи со мной"-->
   			<div id="contact">
   				<form>
-		  				<div class="form-group" id="firstinputelement">
+  					<div class="form-group" id="firstinputelement">
+		  					<hr align="center" width="100%" size="50" color="#dddddd" />
 		  						<label for="example-text-input" class="col-md-2 col-form-label">*Your Name</label>
 		  					<div class="col-md-5">
 		   				 		<input class="form-control" type="text" value="" placeholder="Your Name" id="example-text-input">
@@ -209,12 +243,19 @@
 	  					<button class="btn btn-secondary"  type="submit" style="margin-left: 45%;">Submit form</button>
 	  			</form>
 			</div>
+		</div>
+
 
 		<footer class="footer">
 		Hello
 		<!--Content-->
 		</footer> <!--Подвал-->
 		
+<!-- Подключение Boostrap -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<!--Подключение файла с "якорем" и вращением-->
+<script type="text/javascript" src="js/main.js"></script>
 
 		<script type="text/javascript">
 			var texts = new Array();
