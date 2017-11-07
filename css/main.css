@@ -222,7 +222,10 @@ body,
 	background: #eee;
 	
 }
+
 .photo1{
+	transition: 0.7s;
+	filter: grayscale(100%);
 	background-image: url(../image/photo1.jpg);
 	height: 150px;
 	width: auto;
@@ -232,6 +235,7 @@ body,
 }
 
 .photo2{
+
 	background-image: url(../image/mainweb.JPG);
 	height: 150px;
 	width: auto;
@@ -239,6 +243,10 @@ body,
 	background-position: center;
 	margin-top: 5%;
 
+}
+
+.photo1:hover{
+	filter: grayscale(0);
 }
 
 .col-md-2,
