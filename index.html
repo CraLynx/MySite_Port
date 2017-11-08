@@ -79,7 +79,7 @@
 			</div>
 
 			<div class="container">
-				<div class="r	ow justify-content-center">
+				<div class="row justify-content-center">
 					<div class="col-md-2"><h1>I'm</h1></div>
 					<div class="w-100"></div>
 					<div class="col-md-7">
@@ -166,16 +166,8 @@
 
 		        	<div class="tab-content">
 		        		<div role="tabpanel" class="tab-pane active" id="photo">
-			        			<div class="row">
-			        				<div class="col-md-4" >
-										<div class="photo1"></div>										
-									</div>
-									<div class="col-md-4">
-										<div class="photo1"></div>										
-									</div>
-									<div class="col-md-4">
-										<div class="photo1"></div>										
-									</div>
+			        			<div class="row" id="photogalary">
+			        				
 								</div>	
 		        		</div>
 		        		<div role="tabpanel" class="tab-pane" id="web">
@@ -246,6 +238,20 @@
 		</div>
 
 
+		<div class="modal fade" style="top: 5%;" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+			<div class="modal-dialog" style="max-width: 800px; height: auto;" role="document">
+				<div class="modal-content">
+					<div class="modal-header"> 
+						<h5 class="modal-title" id="exampleModalLabel">Image</h5>
+						 
+					</div>
+					<div class="modal-body">
+     				 </div>
+				</div>
+			</div>
+		</div>
+
+
 		<footer class="footer">
 		Hello
 		<!--Content-->
@@ -258,14 +264,8 @@
 <script type="text/javascript" src="js/main.js"></script>
 
 		<script type="text/javascript">
-			var texts = new Array();
+			var texts = ["Web Developer","Coder","Web-designer","Coffee Lover"];
 			var numtext = 0;
-
-			texts[0]="Web Developer";
-			texts[1]="Coder";
-			texts[2]="Web-designer";
-			texts[3]="Coffee Lover";
-
 
 			$(document).ready(function(){
 				$.fn.animate_Text = function(string) {

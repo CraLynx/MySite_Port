@@ -1,3 +1,9 @@
+var pictures = [
+				{text:"somethingtext8", image:"image/photo1.jpg"},
+				{text:"somet hingtext", image:"image/mainweb.jpg"},
+				{text:"somet hingtext", image:"image/mainweb.jpg"}
+			];
+
 $(function(){
 	$('.button').on('click',null,function(){
 		slowScroll($(this).parents('a').data('scroll'));
@@ -10,6 +16,21 @@ $(function(){
 		WinResize();
 		// alert('124124');
 	});
+	for (var i in pictures){
+		// alert(pictures[i].text);
+		$('#photogalary').append('<div class="col-md-4"><div class="photo1" style="background-image:url('+pictures[i].image+');" data-image="'+pictures[i].image+'">++</div>	</div>');
+	};
+
+
+	$('#photogalary .col-md-4 .photo1').click(function(){
+		var id = $(this).index('#photogalary .col-md-4 .photo1');
+		$('#exampleModal .modal-header').html(pictures[id].text);
+		$('#exampleModal .modal-body').html('<img class="img-fluid" src="'+pictures[id].image+'">');
+		
+		$('#exampleModal').modal('show');
+	});
+
+
 
 	WinResize();
 	ScrlSpy();	
